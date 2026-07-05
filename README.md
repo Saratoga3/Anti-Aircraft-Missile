@@ -26,7 +26,7 @@
 * **遊戲版本：** Minecraft Java Edition `1.21.1`
 * **分類：** 資料包 (Data Pack)
 * **環境相容性：** 相容 **原版** 與 **Fabric** 環境。
-* *註：在 Forge、NeoForge 環境下執行時，可能會遇到箭矢渲染失效的視覺問題，但不影響實際導彈傷害與追蹤判定。*
+   * *註：在 Forge、NeoForge 環境下執行時，可能會遇到箭矢渲染失效的視覺問題，但不影響實際導彈傷害與追蹤判定。*
 
 ---
 
@@ -60,8 +60,11 @@
 
 #### 取得 4 個發射站
 `/give @s minecraft:armor_stand[minecraft:custom_name="'防空導彈發射站1'"]`
+
 `/give @s minecraft:armor_stand[minecraft:custom_name="'防空導彈發射站2'"]`
+
 `/give @s minecraft:armor_stand[minecraft:custom_name="'防空導彈發射站3'"]`
+
 `/give @s minecraft:armor_stand[minecraft:custom_name="'防空導彈發射站4'"]`
 
 ### 搜索目標
