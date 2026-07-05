@@ -1,7 +1,6 @@
 # Anti Aircraft Missile (防空導彈系統)
 
-一個基於 Minecraft 原版生存與指令設計的自動化防空攔截系統。
-本資料包實作了高效率的 **4 聯裝 4 單元防空導彈系統**，能有效應對中高空威脅。
+一個基於 Minecraft 原版生存與指令設計的自動化防空攔截系統。本資料包實作了高效率的 **4 聯裝 4 單元防空導彈系統**，能有效應對中高空威脅。
 
 ---
 
@@ -27,7 +26,7 @@
 * **遊戲版本：** Minecraft Java Edition `1.21.1`
 * **分類：** 資料包 (Data Pack)
 * **環境相容性：** 相容 **原版** 與 **Fabric** 環境。
-  * *註：在 Forge、NeoForge 環境下執行時，可能會遇到箭矢渲染失效的視覺問題，但不影響實際導彈傷害與追蹤判定。*
+* *註：在 Forge、NeoForge 環境下執行時，可能會遇到箭矢渲染失效的視覺問題，但不影響實際導彈傷害與追蹤判定。*
 
 ---
 
@@ -57,16 +56,16 @@
 在想要建立防空基地的位置，依序輸入以下指令取得雷達站與發射站（盔甲架），並將它們放置在地面上：
 
 #### 取得雷達站
-/give @s minecraft:armor_stand[minecraft:custom_name="'防空導彈雷達站'"]
+`/give @s minecraft:armor_stand[minecraft:custom_name="'防空導彈雷達站'"]`
 
 #### 取得 4 個發射站
-/give @s minecraft:armor_stand[minecraft:custom_name="'防空導彈發射站1'"]
-/give @s minecraft:armor_stand[minecraft:custom_name="'防空導彈發射站2'"]
-/give @s minecraft:armor_stand[minecraft:custom_name="'防空導彈發射站3'"]
-/give @s minecraft:armor_stand[minecraft:custom_name="'防空導彈發射站4'"]
+`/give @s minecraft:armor_stand[minecraft:custom_name="'防空導彈發射站1'"]`
+`/give @s minecraft:armor_stand[minecraft:custom_name="'防空導彈發射站2'"]`
+`/give @s minecraft:armor_stand[minecraft:custom_name="'防空導彈發射站3'"]`
+`/give @s minecraft:armor_stand[minecraft:custom_name="'防空導彈發射站4'"]`
 
 ### 搜索目標
 可透過修改資料包設定或 Tag 標籤，將特定玩家納入攔截名單。
 
 #### 指定實體為搜索目標
-/tag @s add anti_aircraft_missile_target
+`/tag @s add anti_aircraft_missile_target`
