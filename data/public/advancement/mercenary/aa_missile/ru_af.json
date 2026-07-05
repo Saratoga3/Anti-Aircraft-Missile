@@ -4,7 +4,7 @@
             "id":"armor_stand"
         },
         "title":"俄羅斯空軍",
-        "description":"被防空雷達鎖定",
+        "description":"今天天氣不錯，等等，那是什麼聲音？",
         "announce_to_chat":true,
         "frame":"goal",
         "hidden":true,
